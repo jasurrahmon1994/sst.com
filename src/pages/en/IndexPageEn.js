@@ -47,7 +47,7 @@ import Partner8 from "../../img/partner-08.jpg";
 import Partner9 from "../../img/partner-09.jpg";
 import Partner10 from "../../img/partner-10.jpg";
 import Partner11 from "../../img/partner-11.jpg";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 function IndexPage() {
   return (
@@ -261,76 +261,42 @@ function IndexPage() {
           <h4 className="subtitle"></h4>
           <div className="line"></div>
         </div>
-        <Swiper
-          modules={[FreeMode, Autoplay, Navigation]}
-          spaceBetween={100}
-          slidesPerView={3}
-          speed={1500}
-          loop={true}
-          autoplay={true}
-          navigation={true}
-          className="productSwiper"
-          breakpoints={{
-            1400: {
-              spaceBetween: 30
-            },
-            800: {
-              width: 800,
-              slidesPerView: 2,
-              spaceBetween: 30
-            },
-            350: {
-              width: 350,
-              slidesPerView: 1,
-              spaceBetween: 30
-            },
-          }}
-        >
-          <SwiperSlide>
-            <Link to="/product" className="product">
-              <div className="img">
-                <img src={Product1} alt="product" />
-              </div>
-              <div className="info">
+        <div className="productSwiper">
+          <HashLink smooth to="/product/en/#mining" className="product">
+            <div className="img">
+              <img src={Product1} alt="product" />
+            </div>
+            <div className="info">
               <h6 className="product-title">Mining equipment</h6>
-                
-              </div>
-            </Link>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Link to="/product" className="product">
-              <div className="img">
-                <img src={Product2} alt="product" />
-              </div>
-              <div className="info">
+            </div>
+          </HashLink>
+          <HashLink smooth to="/product/en/#aerodrome" className="product">
+            <div className="img">
+              <img src={Product2} alt="product" />
+            </div>
+            <div className="info">
               <h6 className="product-title">Aerodrome equipment</h6>
-                 
-              </div>
-            </Link>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Link to="/product" className="product">
-              <div className="img">
-                <img src={Product3} alt="product" />
-              </div>
-              <div className="info">
-              <h6 className="product-title">Industrial lubricants</h6>
-                
-              </div>
-            </Link>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Link to="/product" className="product">
-              <div className="img">
-                <img src={Product4} alt="product" />
-              </div>
-              <div className="info">
+            </div>
+          </HashLink>
+          <HashLink smooth to="/product/en/#lubricant" className="product">
+            <div className="img">
+              <img src={Product3} alt="product" />
+            </div>
+            <div className="info">
+              <h6 className="product-title">
+                Industrial lubricants
+              </h6>
+            </div>
+          </HashLink>
+          <HashLink smooth to="/product/en/#services" className="product">
+            <div className="img">
+              <img src={Product4} alt="product" />
+            </div>
+            <div className="info">
               <h6 className="product-title">Services</h6>
-                 
-              </div>
-            </Link>
-          </SwiperSlide>
-        </Swiper>
+            </div>
+          </HashLink>
+        </div>
       </div>
       <div className="our-partners section">
         <div className="sec-title">

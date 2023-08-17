@@ -18,14 +18,14 @@ function ConnectPage() {
           .querySelector(".connect-page .subtitle")
           .classList.add("green");
         document.querySelector(".connect-page .title").innerHTML =
-          "Ваш запрос отправлен.";
+          "Your request has been sent succesfully";
         document.querySelector(".connect-page .subtitle").innerHTML =
-          "Мы свяжемся с вами в кратчайшие сроки.";
+          "We will reach out you soon";
         document.querySelector(".connect-page form").style.display = "none";
       })
       .catch(() => {
         document.querySelector(".connect-page .title").innerHTML =
-          "Ваш запрос не отправлен.";
+          "Unfortunately, your request hasn't been sent. Please, try again";
       });
   };
   return (

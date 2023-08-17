@@ -16,7 +16,7 @@ function ProductPage() {
           <h4 className="subtitle"></h4>
           <div className="line"></div>
         </div>
-        <div className="product-in">
+        <div className="product-in" id="mining">
           <div className="text">
             <h3>Горно-шахтная техника</h3>
             <ul>
@@ -35,7 +35,7 @@ function ProductPage() {
             <img src={Product3} alt="product" />
           </div>
         </div>
-        <div className="product-in">
+        <div className="product-in" id="aerodrome">
           <div className="text">
             <h3>Аэродромная техника</h3>
             <ul>
@@ -55,7 +55,7 @@ function ProductPage() {
             <img src={Product2} alt="product" />
           </div>
         </div>
-        <div className="product-in">
+        <div className="product-in" id="lubricant">
           <div className="text">
             <h3>Индустриальные смазочные материалы</h3>
             <ul>
@@ -74,25 +74,25 @@ function ProductPage() {
             <img src={Product1} alt="product" />
           </div>
         </div>
-        <div className="product-in">
+        <div className="product-in" id="services">
           <div className="text">
             <h3>Наши услуги</h3>
             <ul>
               <li>
-                <bold>Инжиниринг </bold> – наша концепция – высокая рентабельность и
+                <b>Инжиниринг </b> – наша концепция – высокая рентабельность и
                 безупречные процессы как результат индивидуального решения
                 проблем. Наше преимущество – это свыше 9 лет опыта и многократно
                 себя хорошо зарекомендовавшие на практике решения.
               </li>
               <li>
-                <bold>Сервис </bold> – регулярное сервисное обслуживание – это больше, чем
+                <b>Сервис </b> – регулярное сервисное обслуживание – это больше, чем
                 просто техническое обслуживание. Проведение регулярного
                 профилактического обслуживания обеспечивает высокую техническую
                 готовность вашего оборудования и гарантируют рентабельность его
                 эксплуатации на протяжении длительного времени.
               </li>
               <li>
-                <bold>Монтаж </bold> – детальное планирование, отличная организация и
+                <b>Монтаж </b> – детальное планирование, отличная организация и
                 неустанная готовность наших монтажников обеспечивают
                 профессиональный и своевременный монтаж вашего оборудования на
                 месте его установки – даже в самых тяжелых условиях.

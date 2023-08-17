@@ -47,7 +47,7 @@ import Partner8 from "../img/partner-08.jpg";
 import Partner9 from "../img/partner-09.jpg";
 import Partner10 from "../img/partner-10.jpg";
 import Partner11 from "../img/partner-11.jpg";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 function IndexPage() {
   return (
@@ -88,7 +88,8 @@ function IndexPage() {
             <div className="text">
               <h2 className="main-title">Надежный партнер</h2>
               <h3>
-              С каждый клиентом нашей компании – мы строим партнерство на основах доверия проверенное временем
+                С каждый клиентом нашей компании – мы строим партнерство на
+                основах доверия проверенное временем
               </h3>
             </div>
           </SwiperSlide>
@@ -99,7 +100,8 @@ function IndexPage() {
             <div className="text">
               <h2 className="main-title">Высшее качество</h2>
               <h3>
-              Команда профессионалов предлагает индивидуальные решения учитывая требования и пожелания корпоративного Заказчика
+                Команда профессионалов предлагает индивидуальные решения
+                учитывая требования и пожелания корпоративного Заказчика
               </h3>
             </div>
           </SwiperSlide>
@@ -110,7 +112,9 @@ function IndexPage() {
             <div className="text">
               <h2 className="main-title">Наш опыт</h2>
               <h3>
-              Благодаря командной работе профессионалов наша компания предлагает конкурентные цены и гарантирует доставку в срок. Мы работаем для развития Вашего бизнеса
+                Благодаря командной работе профессионалов наша компания
+                предлагает конкурентные цены и гарантирует доставку в срок. Мы
+                работаем для развития Вашего бизнеса
               </h3>
             </div>
           </SwiperSlide>
@@ -138,36 +142,28 @@ function IndexPage() {
               <img src={WorkflowIcon2} alt="workflow-icon-2" />
             </div>
             <h5>Размещение заказа</h5>
-            <p>
-            Предоставляются документы и дается старт проекту
-            </p>
+            <p>Предоставляются документы и дается старт проекту</p>
           </div>
           <div className="step">
             <div className="img">
               <img src={WorkflowIcon3} alt="workflow-icon-3" />
             </div>
             <h5>Мониторинг процессов</h5>
-            <p>
-            Мониторинг за всеми процессами реализации проекта
-            </p>
+            <p>Мониторинг за всеми процессами реализации проекта</p>
           </div>
           <div className="step">
             <div className="img">
               <img src={WorkflowIcon4} alt="workflow-icon-4" />
             </div>
             <h5>Процесс отгрузки</h5>
-            <p>
-            Предотгрузочные испытания совместно с Заказчиком
-            </p>
+            <p>Предотгрузочные испытания совместно с Заказчиком</p>
           </div>
           <div className="step">
             <div className="img">
               <img src={WorkflowIcon5} alt="workflow-icon-5" />
             </div>
             <h5>Перевозка</h5>
-            <p>
-            Организация перевозки и доставка груза в пункт назначения
-            </p>
+            <p>Организация перевозки и доставка груза в пункт назначения</p>
           </div>
           <div className="step">
             <div className="img">
@@ -175,7 +171,8 @@ function IndexPage() {
             </div>
             <h5>Ввод в эксплуатацию</h5>
             <p>
-            Пусконаладка осуществляется нашим инженерным отделом при надзоре представителя завода-изготовителя
+              Пусконаладка осуществляется нашим инженерным отделом при надзоре
+              представителя завода-изготовителя
             </p>
           </div>
           <div className="step">
@@ -183,9 +180,7 @@ function IndexPage() {
               <img src={WorkflowIcon7} alt="workflow-icon-7" />
             </div>
             <h5>Сдача проекта получателю</h5>
-            <p>
-            Долгосрочное сопровождение Заказчика
-            </p>
+            <p>Долгосрочное сопровождение Заказчика</p>
           </div>
         </div>
       </div>
@@ -262,77 +257,42 @@ function IndexPage() {
           <h4 className="subtitle"></h4>
           <div className="line"></div>
         </div>
-        <Swiper
-          modules={[FreeMode, Autoplay, Navigation]}
-          spaceBetween={100}
-          slidesPerView={4}
-          speed={1500}
-          loop={true}
-          autoplay={true}
-          navigation={true}
-          className="productSwiper"
-          breakpoints={{
-            1400: {
-              spaceBetween: 30
-            },
-            800: {
-              width: 800,
-              slidesPerView: 2,
-              spaceBetween: 30
-            },
-            350: {
-              width: 350,
-              slidesPerView: 1,
-              spaceBetween: 30
-            },
-          }}
-        >
-          <SwiperSlide>
-            <Link to="/product" className="product">
-              <div className="img">
-                <img src={Product1} alt="product" />
-              </div>
-              <div className="info">
-                <h6 className="product-title">Горно-шахтная техника</h6>
-                
-              </div>
-            </Link>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Link to="/product" className="product">
-              <div className="img">
-                <img src={Product2} alt="product" />
-              </div>
-              <div className="info">
-                <h6 className="product-title">Аэродромная техника</h6>
-                
-              </div>
-            </Link>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Link to="/product" className="product">
-              <div className="img">
-                <img src={Product3} alt="product" />
-              </div>
-              <div className="info">
-                <h6 className="product-title">Индустриальные смазочные материалы</h6>
-               
-              </div>
-            </Link>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Link to="/product" className="product">
-              <div className="img">
-                <img src={Product4} alt="product" />
-              </div>
-              <div className="info">
-                <h6 className="product-title">Услуги</h6>
-                
-              </div>
-            </Link>
-          </SwiperSlide>
-          
-        </Swiper>
+        <div className="productSwiper">
+          <HashLink smooth to="/product/#mining" className="product">
+            <div className="img">
+              <img src={Product1} alt="product" />
+            </div>
+            <div className="info">
+              <h6 className="product-title">Горно-шахтная техника</h6>
+            </div>
+          </HashLink>
+          <HashLink smooth to="/product/#aerodrome" className="product">
+            <div className="img">
+              <img src={Product2} alt="product" />
+            </div>
+            <div className="info">
+              <h6 className="product-title">Аэродромная техника</h6>
+            </div>
+          </HashLink>
+          <HashLink smooth to="/product/#lubricant" className="product">
+            <div className="img">
+              <img src={Product3} alt="product" />
+            </div>
+            <div className="info">
+              <h6 className="product-title">
+                Индустриальные смазочные материалы
+              </h6>
+            </div>
+          </HashLink>
+          <HashLink smooth to="/product/#services" className="product">
+            <div className="img">
+              <img src={Product4} alt="product" />
+            </div>
+            <div className="info">
+              <h6 className="product-title">Услуги</h6>
+            </div>
+          </HashLink>
+        </div>
       </div>
       <div className="our-partners section">
         <div className="sec-title">
