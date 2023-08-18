@@ -1,10 +1,10 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Product1 from "../img/product-in-01.png";
-import Product2 from "../img/product-in-02.png";
-import Product3 from "../img/product-in-03.png";
-import Product4 from "../img/product-in-04.png";
+import Product1 from "../img/product-in-01.webp";
+import Product2 from "../img/product-in-02.webp";
+import Product3 from "../img/product-in-03.webp";
+import Product4 from "../img/product-in-04.webp";
 
 function ProductPage() {
   return (

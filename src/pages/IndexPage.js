@@ -10,10 +10,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/bundle";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import IntroImg from "../img/intro-01.png";
-import IntroImg2 from "../img/intro-02.png";
-import IntroImg3 from "../img/intro-03.png";
-import IntroImg4 from "../img/intro-04.png";
+import IntroImg from "../img/intro-01.webp";
+import IntroImg2 from "../img/intro-02.webp";
+import IntroImg3 from "../img/intro-03.webp";
+import IntroImg4 from "../img/intro-04.webp";
 import WorkflowIcon1 from "../img/workflow-icon-01.jpg";
 import WorkflowIcon2 from "../img/workflow-icon-02.jpg";
 import WorkflowIcon3 from "../img/workflow-icon-03.jpg";
@@ -21,7 +21,7 @@ import WorkflowIcon4 from "../img/workflow-icon-04.jpg";
 import WorkflowIcon5 from "../img/workflow-icon-05.jpg";
 import WorkflowIcon6 from "../img/workflow-icon-06.jpg";
 import WorkflowIcon7 from "../img/workflow-icon-07.jpg";
-import NumberBack from "../img/number-back.png";
+import NumberBack from "../img/number-back.webp";
 import NumberIcon1 from "../img/number-icon-01.svg";
 import NumberIcon2 from "../img/number-icon-02.svg";
 import NumberIcon3 from "../img/number-icon-03.svg";
@@ -31,11 +31,11 @@ import AdvIcon2 from "../img/adv-icon-02.svg";
 import AdvIcon3 from "../img/adv-icon-03.svg";
 import AdvIcon4 from "../img/adv-icon-04.svg";
 import AdvIcon5 from "../img/adv-icon-05.svg";
-import ProductBack from "../img/product-back.png";
-import Product1 from "../img/product-01.png";
-import Product2 from "../img/product-02.png";
-import Product3 from "../img/product-03.png";
-import Product4 from "../img/product-04.png";
+import ProductBack from "../img/product-back.webp";
+import Product1 from "../img/product-01.webp";
+import Product2 from "../img/product-02.webp";
+import Product3 from "../img/product-03.webp";
+import Product4 from "../img/product-04.webp";
 import Partner1 from "../img/partner-01.jpg";
 import Partner2 from "../img/partner-02.jpg";
 import Partner3 from "../img/partner-03.jpg";
@@ -70,7 +70,7 @@ function IndexPage() {
               <img src={IntroImg} alt="truba" />
             </div>
             <div className="text">
-              <h2 className="main-title"> SWISS SAFE TRADE</h2>
+              <h1 className="main-title"> SWISS SAFE TRADE</h1>
               <h3>
                 Динамично развивающихся компания региона, осуществляющая
                 деятельность по направлению поставок широкого спектра

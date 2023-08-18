@@ -4,7 +4,6 @@ import Header from "../components/Header";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/bundle";
-import AboutImg from "../img/about-comp.png";
 import Tick from "../img/tick.svg";
 import Partner1 from "../img/partner-01.jpg";
 import Partner2 from "../img/partner-02.jpg";
