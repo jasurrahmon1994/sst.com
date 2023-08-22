@@ -56,8 +56,7 @@ function AboutPage() {
               <h3>Our experience:</h3>
                  <p>
                    Thanks to the teamwork of professionals, our company
-                   offers competitive prices and guarantees delivery on time. We
-                   works to grow your business.
+                   offers competitive prices and guarantees delivery on time.
                  </p>
               </div>
             </div>
